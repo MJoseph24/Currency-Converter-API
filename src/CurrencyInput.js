@@ -1,3 +1,4 @@
+/*This is where the currency styling is applied and where the main function for currency conversion is stored*/
 import PropTypes from "prop-types";
 import "./currencyInput.css";
 

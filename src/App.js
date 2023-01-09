@@ -1,8 +1,7 @@
-import "./App.css";
+/*This is where I get the api and use the key as well as where all the logic of this app is contained*/
 import CurrencyInput from "./CurrencyInput";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import "./index.css";
 
 function App() {
   const [amount1, setAmount1] = useState(1);
@@ -59,9 +58,9 @@ function App() {
       <h1
         style={{
           textAlign: "center",
-          color: "gold",
+          color: "black",
           textAlign: "center",
-          fontFamily: "Neue",
+          fontFamily: "Helvetica, sans-serif",
         }}
       >
         Melvin's Personal Currency Converter

@@ -1,16 +1,18 @@
+/*This is where I edit the styling of my input values and input boxes*/
 .group {
-  background: #335;
+  background: rgb(0, 0, 0);
   width: 180px;
   margin: 0 auto 20px;
   display: grid;
   grid-template-columns: 100px 80px;
   border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input,
 select {
   background: none;
   border: 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 input {
   padding-left: 10px;
