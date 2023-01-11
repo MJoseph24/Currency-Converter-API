@@ -3,7 +3,7 @@ import CurrencyInput from "../CurrencyInput";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-function App() {
+function Converter() {
   const [amount1, setAmount1] = useState(1);
   const [amount2, setAmount2] = useState(1);
   const [currency1, setCurrency1] = useState("USD");
@@ -83,4 +83,4 @@ function App() {
   );
 }
 
-export default App;
+export default Converter;
