@@ -1,5 +1,5 @@
 /*This is where I get the api and use the key as well as where all the logic of this app is contained*/
-import CurrencyInput from "../src/CurrencyInput";
+import CurrencyInput from "../CurrencyInput";
 import { useState, useEffect } from "react";
 import axios from "axios";
 

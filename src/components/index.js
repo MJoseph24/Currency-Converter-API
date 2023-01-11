@@ -1,4 +1,5 @@
 import React from "react";
+import App from '../pages/Home';
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 const Navbar = () => {
   return (
@@ -16,6 +17,9 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
       </Nav>
+      <div>
+        <App />
+      </div>
     </>
   );
 };
