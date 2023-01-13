@@ -1,4 +1,4 @@
-/*This is where the logic of the server is contained and it's mainly resopnsible for functions like the app's startup*/
+/*This is where the logic of the server is contained, and it's mainly resopnsible for functions like the app's startup*/
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";

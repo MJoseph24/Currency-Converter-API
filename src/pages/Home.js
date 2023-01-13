@@ -48,6 +48,7 @@ function Converter() {
     setAmount2(amount2);
   }
 
+  /*This is where I edit the styling and elements present in my Home page*/
   function handleCurrency2Change(currency2) {
     setAmount1(format((amount2 * rates[currency1]) / rates[currency2]));
     setCurrency2(currency2);

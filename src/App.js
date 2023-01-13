@@ -1,3 +1,4 @@
+/*This is the main file in this project since it acts as a container for all other components in this app*/
 import React from "react";
 import Navbar from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
