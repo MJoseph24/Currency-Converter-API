@@ -1,4 +1,5 @@
 /*This is where I edit the styling and elements present in my Contact page*/
+
 import React from "react";
 
 const Contact = () => {

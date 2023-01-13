@@ -1,3 +1,5 @@
+//This file exports various styled components for the navigation bar of the application, including a Nav container, NavLink, Bars, and NavMenu. It also includes media queries to adjust the styling for different screen sizes.
+
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";

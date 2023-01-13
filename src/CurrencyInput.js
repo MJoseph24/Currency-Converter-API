@@ -1,4 +1,5 @@
 /*This is where the currency styling is applied and where the main function for currency conversion is stored*/
+
 import PropTypes from "prop-types";
 import "./currencyInput.css";
 
@@ -12,7 +13,7 @@ function CurrencyInput(props) {
       />
       <select
         value={props.currency}
-        onChange={(ev) => props.onCurrencyChange(ev.target.value)}
+        onChange={(ev) => props.onAmountChange(Number(ev.target.value))}
       >
         {props.currencies.map((currency) => (
           <option value={currency}>{currency}</option>
