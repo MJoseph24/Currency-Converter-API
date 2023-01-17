@@ -6,6 +6,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import React, { useRef } from "react";
 import "./Home.css";
+import SearchBar from "../components/SearchBar";
+import "../components/Searchbar.css";
 
 function Converter() {
   const audioRef = useRef(null);
@@ -109,6 +111,9 @@ function Converter() {
           amount={amount2}
           currency={currency2}
         />
+      </div>
+      <div className="search-form">
+        <SearchBar />
       </div>
     </div>
   );
